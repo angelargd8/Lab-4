@@ -1,0 +1,70 @@
+
+package CVista;
+//import CControlador.Controlador;
+import java.util.Random;
+
+
+public class MostrarMenu {
+    Vista vista;
+   // Controlador controlador;
+    int opcion=0;
+    int dispositivo;
+
+    public MostrarMenu(){
+        vista = new Vista();
+     //   controlador= new Controlador();
+        
+    }
+    public void MostrarPrograma(){
+        vista.Mensaje(); 
+        
+        
+
+        while (opcion!=7){
+            //opcion= vista.SeleccioneMenu("\nBienvenido a su dispositivo ZOOM \n Ingrese una opción:\n1. Encender su dispositivo \n2. Iniciar Videoconferencia \n3. Unirse a una videoconferencia \n4. Enviar mensaje \n 5. Salir de la videoconferencia \n6. salir de su dispositivo\n7. salir");
+            //opcion = vista.Opcion();
+ 
+            //int numero_random;
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            if (opcion==1){
+                //dispositivo= vista.SeleccioneMenu("Cual es el dispositivo que usará? \n 1. celular\n2. tablet \n3. computadora\n4. Carro");
+                //controlador.Estado(dispositivo);
+            }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            try{
+                if (opcion==2){
+   
+                }
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                else if (opcion==3){
+
+
+                }
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                else if (opcion==4){
+
+                    
+                }
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                else if (opcion==5){
+
+                }
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+                else if (opcion==6){
+
+                }
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                
+            }catch (Exception e){
+
+            }
+        }
+
+  
+    }
+
+    
+}
