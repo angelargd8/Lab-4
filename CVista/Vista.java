@@ -1,4 +1,11 @@
-
+/*
+ * Autores:
+ *          Angela García #22869
+ *          Augusto Sanic #20717
+            Sergio Palacios #22808
+ * fecha de entrega:20/11/2022
+ * catedratico: Ludwing Cano
+ */
 package CVista;
 import java.util.Scanner;
 //import CControlador.Controlador;
@@ -48,7 +55,7 @@ public class Vista {
     }
 
     public void validacion2(){
-        System.out.println("\n- Primero debe de encender su dispositivo-");
+        System.out.println("\n- Primero debe de encender su radio-");
     }
 
 
